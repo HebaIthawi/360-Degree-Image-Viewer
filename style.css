@@ -11,10 +11,9 @@ body {
 }
 
 .main-container .image-container {
-   flex: 1;
-  height: 100%;
-
-  position: fixed;
+  flex: 1;
+  height: 100vh;
+ /* position: fixed;*/
   width: 50%;
 }
 
@@ -33,3 +32,47 @@ body {
   text-shadow: 2px 16px 16px rgba(0, 0, 0, 0.3);
   pointer-events: none;
 }
+
+.txt-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* padding: 15px; */
+  /* align-items: flex-end; */
+  /* justify-content: flex-start; */
+  height: 100vh;
+  width: 100%;
+  background: #111;
+  font-family: "Raleway", sans-serif;
+  color: #f6f2de;
+
+}
+
+.txt-container h2 {
+  padding-top: 20px ;
+  /* flex: 1 ; */
+  font-size: 36px;
+
+
+}
+.txt-container p {
+  /* flex: 2; */
+  font-size: 24px;
+}
+
+.second-container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  background: #d59898;
+  width: 100%;
+}
+
+.second-container .image-container2{
+  flex: 1;
+  height: 100vh;
+ /* position: fixed;*/
+  width: 100%;
+}
+
