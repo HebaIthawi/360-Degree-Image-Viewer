@@ -51,13 +51,14 @@ body {
 
 .txt-container h2 {
   padding-top: 20px ;
-  /* flex: 1 ; */
+   flex: 1 ; 
   font-size: 36px;
+  padding-top: 15px;
 
 
 }
 .txt-container p {
-  /* flex: 2; */
+  flex:2 ;
   font-size: 24px;
 }
 
@@ -65,14 +66,21 @@ body {
   display: flex;
   height: 100vh;
   align-items: center;
-  background: #d59898;
+  background: #111;
   width: 100%;
 }
 
 .second-container .image-container2{
-  flex: 1;
-  height: 100vh;
+  /* flex: 1;  */
+  height: 75%;  
  /* position: fixed;*/
   width: 100%;
 }
 
+.third-container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  background: #111;
+  width: 100%;
+}
