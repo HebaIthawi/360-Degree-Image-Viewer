@@ -11,7 +11,7 @@ const viewer = new PANOLENS.Viewer({
 viewer.add(panoramaImage);
 
 
-const panoramaImage2 = new PANOLENS.ImagePanorama("images/360-library.jpg");
+const panoramaImage2 = new PANOLENS.ImagePanorama("ibh2.jpeg");
 const imageContainer2 = document.querySelector(".image-container2");
 
 const viewer2 = new PANOLENS.Viewer({
